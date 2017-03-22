@@ -10,8 +10,12 @@
 
 ## 管理中心
 <img src="admin-1.png" >
+
+
 ## 自动补全图形支持
 <img src="complete.png">
+
+
 ## 侧栏的隐藏与显示
 <img src="admin-2.png">
 <img src="admin-3.png">
