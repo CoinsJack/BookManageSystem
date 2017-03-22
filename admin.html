@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title class="admin-name">管理员中心-图书馆里系统</title>
+        <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+        </script>
+        <script src="admin.js"></script>
+        <link rel="stylesheet" type="text/css" href="admin.css"/>
+    </head>
+
+    <body>
+    	<h1 id="menu_bt">
+        	M
+        </h1>
+        
+        <div class="side-bar" id="side_bar">
+        	<div id="admin_info">
+             	<h2 id="admin_name"> 管理员 : Jack</h2>
+            	<h2>ID: 8977271</h2>
+            </div>
+            <div id="manager-item">
+            <ul id="manager-list" >
+            <li id="borrow_reg" class="manager-item">借书登记</li>
+            <li id="return_reg" class="manager-item">还书登记</li>
+            <li id="newbook_reg" class="manager-item">新书入库</li>
+            <li id="other_reg" class="manager-item">其他登记</li>
+            <li id="exit_reg" class="manager-item">退出登录</li>
+            </ul>
+            </div>
+
+        </div>
+
+        <div id="main_content">
+			<!-- 新的系统消息部分 -->
+        	<div id="new_msg">
+            <h1> 管理中心 </h1> 
+            <div id="query_box_div">
+            	<form id="qeury_box_form">
+                    <div id="super_query_box">
+                	<input type="text" class="comple-field" id="query_input_box" name="query_word"><font class="compled-item-close-bt">x</font>
+                    <input type="submit" id="query_bt" value="查询">
+                    </div>
+                </form>      
+            	<ul id="query_comple_list">
+                <li class="compled-item " id="query_comple_list_n_1">100</li>
+                <li class="compled-item ">101</li>
+                <li class="compled-item">102</li>
+                <li class="compled-item">103</li>
+                <li class="compled-item">104</li>
+
+                </ul>
+            </div>
+            今日应还书本13册
+       		</div>
+            
+            <!-- 这里是借书是申请表区域 -->
+            <div id="borrow_form_div">
+            <h1> 借书登记 </h1><hr>
+            	<form id="borrow_form">
+                
+                <table>
+                <tr><td>借书人名称或学号</td><td><input type="text" class="comple-field" name="name"></td></tr>
+                <tr><td>图书名称或ISBN号</td><td><input type="text"class="comple-field"  name="name"></td></tr>
+                </table><br>
+                    <input type="submit" class="submit-bt" value="提交申请">
+                </form>
+            </div>
+            
+            <!-- 这里是还书的申请表区域 -->
+            <div id="return_form_div">
+            <h1> 还书登记 </h1><hr>
+            	<form id="borrow_form">
+                
+                <table>
+                <tr><td>还书人名称或学号</td><td><input type="text" class="comple-field" name="name"></td></tr>
+                <tr><td>图书名称或ISBN号</td><td><input type="text"class="comple-field"  name="name"></td></tr>
+                </table><br>
+                    <input type="submit" class="submit-bt" value="提交申请">
+                </form>
+            </div>
+        </div>
+		
+        <div id="conf_div">
+        <p id="sidebar_switcher">1<p>
+        </div>
+</body>
+</html>

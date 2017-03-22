@@ -1,0 +1,130 @@
+
+        body{
+            margin:0px;
+            padding: 0px;
+			font-family: "黑体";
+        }
+		#manager-list{
+			list-style:none;
+						line-height: 2em;
+
+
+		}
+		
+
+		p{
+			padding-right: 40px;
+		}
+        div.side-bar{
+            position: fixed;
+            background: #2F4F4F;
+            color:aliceblue;
+			border-left: 2px grey solid;
+        }
+        div.side-bar.admin_name{
+            position: relative;
+
+
+        }
+		div.main-content{
+			position: fixed;
+			padding: 0px;
+			word-wrap: break-word;
+			left: 0px;
+	
+		}
+		#admin_name {
+			padding-top: 40px;
+			color: #FFF;
+		}
+		#manager-item{
+
+		}
+		#admin_info{
+			padding: 80px, 50px;
+			border-bottom: 3px solid #FFF;
+		}
+		#new_msg{
+			padding: 12%;
+			padding-top: 100px;
+			
+		}
+		#new_msg{
+			width: 1;
+			word-wrap: break-word;
+
+		}
+		#borrow_form_div{
+						padding-left: 35%;
+						padding-right: 35%;
+						padding-top: 80px;
+
+		}
+		#return_form_div{
+						padding-left: 35%;
+						padding-right: 35%;
+						padding-top: 80px;
+
+		}
+		.submit-bt{
+			background:#2f4f4f;
+			color:white;
+		}
+		.comple-field{
+			width: 16em;
+		}
+		#menu_bt{
+			position: fixed;
+			left: 0px;
+			top: 40px;
+			background: #2f4f4f;
+			width: 1em;
+			height: 1em;
+			line-height: 1em;
+			color: #FFF;
+			text-align:center;
+			font-size:4em;
+		}
+		#query_box_div{
+			position: absolute;
+			right: 30%;
+		}
+		
+		#query_input_box{
+			border: none;
+			outline: none;
+		}
+		#query_bt{
+			color: #FFF;
+			background: #2f4f4f;
+
+			border: 1px #2f4f4f solid;
+		}
+		
+		#query_comple_list{
+			list-style:none;
+			margin: 0px;
+			padding: 0px;
+		}
+		
+		.compled-item{
+			border: 1px white solid;
+			width: 16em;
+			background: #eee;
+			color:black;
+		}
+		.compled-item-selected{
+			background: #2F4F4F;
+			color: white;
+		}
+
+.compled-item-close-bt{
+	text-align: center;
+	width: 2em;
+	text-align: center;
+	color: #ddd;
+}		
+
+#super_query_box{
+	border: 2px #2F4F4F solid;
+}
